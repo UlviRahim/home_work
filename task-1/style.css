@@ -1,0 +1,136 @@
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 20px;
+  border-bottom: 4px solid #ccc;
+}
+
+h1 {
+  border-bottom: 4px solid #ccc;
+  padding-bottom: 25px;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+span {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  gap: 30px;
+}
+
+nav a {
+  background-color: #3e6598;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+form label:nth-last-of-type(-n + 3) {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.span-checkbox-title {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+main {
+  padding: 4px;
+}
+
+
+.main-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;  
+  gap: 20px;
+}
+
+
+img {
+  max-width: 48%;
+  height: auto;
+  border-radius: 28px;
+  object-fit: cover; 
+}
+
+.form-box {
+  flex: 1;
+  padding: 40px;
+  border: 2px solid #ccc;
+  border-radius: 45px;
+  background-color: #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+label {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 12px 0;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+form button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #3e6598;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  align-self: flex-start; 
+}
+
+form span {
+  display: block;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.checkbox-grid {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.container-1 {
+    float: left;
+    width: 33%;
+}
+.container-1 ul {
+    padding: 0;
+    list-style: none;
+}
+h3{
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+.container-1 ul li {
+    font-size: 18px;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 0.5);
+}
